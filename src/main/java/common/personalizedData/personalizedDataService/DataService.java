@@ -5,5 +5,5 @@ import common.personalizedData.personalizedDataModel.ResponseDTO;
 
 public interface DataService {
 
-    ResponseDTO productsByShopper (RequestDTO request) ;
+    ResponseDTO productsByShopper(RequestDTO request);
 }

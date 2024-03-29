@@ -14,7 +14,7 @@ public class DataController {
     DataService dataService;
 
     @RequestMapping(value = "/shopper", method = RequestMethod.POST)
-    public ResponseEntity<ResponseDTO> shopperDetails (@RequestBody RequestDTO requestData) {
+    public ResponseEntity<ResponseDTO> shopperDetails(@RequestBody RequestDTO requestData) {
         return ResponseEntity.ok(dataService.productsByShopper(requestData));
     }
 }

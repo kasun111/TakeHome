@@ -1,0 +1,39 @@
+{
+	"info": {
+		"_postman_id": "b54fd44e-6062-4ced-9353-bb3a5ebc81b1",
+		"name": "PersonliedDataApi",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json",
+		"_exporter_id": "14540385"
+	},
+	"item": [
+		{
+			"name": "ExternalApiReq",
+			"request": {
+				"method": "POST",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{\r\n    \"shopperId\": \"sh001\",\r\n    \"category\": \"MotherBoad\",\r\n    \"brand\": \"Asus\",\r\n    \"limit\": 10\r\n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "http://localhost:8080/data/shopper",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "8080",
+					"path": [
+						"data",
+						"shopper"
+					]
+				}
+			},
+			"response": []
+		}
+	]
+}
